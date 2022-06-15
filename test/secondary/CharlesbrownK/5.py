@@ -6,11 +6,11 @@ globe = int(toy["지구본"])
 watch = int(toy["시계"])
 
 sell = {"레고":23, '기차':50, '로봇':27, '지구본':15, '시계':57}
-sell_lego = int(sell["레고"])
-sell_train = int(sell["기차"])
-sell_robot = int(sell["로봇"])
-sell_globe = int(sell["지구본"])
-sell_watch = int(sell["시계"])
+sell_lego = sell["레고"]
+sell_train = sell["기차"]
+sell_robot = sell["로봇"]
+sell_globe = sell["지구본"]
+sell_watch = sell["시계"]
 
 revenue = lego * sell_lego + train * sell_train + robot * sell_robot + globe * sell_globe + watch * sell_watch
 print(revenue)
